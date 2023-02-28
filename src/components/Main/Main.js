@@ -5,7 +5,7 @@ import Zodiac from '../Zodiac/Zodiac.js';
 
 export default function Main() {
   return (
-    <main>
+    <main style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/starry-background.jpg)` }}>
       {zodiac.map((sign) => (
         <Zodiac key={sign.id} {...sign} />
       ))}
