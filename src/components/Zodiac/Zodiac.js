@@ -2,5 +2,11 @@ import React from 'react';
 import './Zodiac.css';
 
 export default function Zodiac(sign) {
-  return <div>{sign.name}</div>;
+  return (
+    <div>
+      <img src={`/signs/${sign.name}.svg`} />
+      <h1>{sign.name}</h1>
+      <p>{sign.dates}</p>
+    </div>
+  );
 }
