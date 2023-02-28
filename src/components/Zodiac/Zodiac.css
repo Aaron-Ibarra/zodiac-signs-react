@@ -1,3 +1,11 @@
 img {
   width: 100px;
 }
+
+.zodiac-sign {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  align-items: center;
+  padding: 60px;
+}
